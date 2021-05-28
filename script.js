@@ -1,20 +1,23 @@
-      document.write("<p>");
-     function addZero(i) {
+    document.write("<p>");
+    
+    function addZero(i) {
       if (i < 10) {
       i = "0" + i;
       }
       return i;
-     }
+    }
+   
     var d = new Date();
     var h = addZero(d.getHours());
     var m = addZero(d.getMinutes());
     var time= h + "" + m;
     var date = d.getDay();
+    
     if (date == 1)
     {
      if ((time>=0850)&&(time<0950)) 
         {
-             document.write('<h1>Operating Systems</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3toCNck" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
+          document.write('<h1>Operating Systems</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3toCNck" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
         }
         if ((time>=0950)&&(time<1050)) 
         {
@@ -43,7 +46,7 @@
     {
      if ((time>=0850)&&(time<0950)) 
         {
-             document.write('<h1>Database Management System</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3nT4lpl" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
+          document.write('<h1>Database Management System</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3nT4lpl" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
         }
         if ((time>=0950)&&(time<1050)) 
         {
@@ -72,7 +75,7 @@
     {
      if ((time>=0850)&&(time<0950)) 
         {
-             document.write('<h1>Minor</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+        document.write('<h1>Minor</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0950)&&(time<1050)) 
         {
@@ -101,7 +104,7 @@
     {
         if ((time>=0850)&&(time<0950)) 
         {
-             document.write('<h1>Minor</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+        document.write('<h1>Minor</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0950)&&(time<1050)) 
         {
@@ -130,7 +133,7 @@
     {
      if ((time>=0850)&&(time<0950)) 
         {
-             document.write('<h1>Database Management System</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3nT4lpl" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
+        document.write('<h1>Database Management System</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3nT4lpl" target="_blank" rel="noopener noreferrer">Join via Teams</a>');
         }
         if ((time>=0950)&&(time<1050)) 
         {
