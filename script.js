@@ -188,7 +188,7 @@
       document.write('<h1>Break</h1>')
     }
     
-    if((time<0850)||(time>1610)||(date==0)||(date==6))
+    if((time<0850)||(time>=1610)||(date==0)||(date==6))
     {
         document.write('<h1>No Class at this time</h1>');
     }
