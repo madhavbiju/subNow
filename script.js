@@ -17,7 +17,7 @@
     {
         if ((time>=0850)&&(time<0940))
         {
-          document.write('<h1>Minor/Honour</h1><h2>9:00:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0940)&&(time<1030)) 
         {
@@ -50,7 +50,7 @@
     {
         if ((time>=0850)&&(time<0940))
         {
-          document.write('<h1>Minor/Honour</h1><h2>9:00:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0940)&&(time<1030)) 
         {
@@ -83,7 +83,7 @@
     {
         if ((time>=0850)&&(time<0940))
         {
-          document.write('<h1>Minor/Honour</h1><h2>9:00:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0940)&&(time<1030)) 
         {
@@ -116,7 +116,7 @@
     {
         if ((time>=0850)&&(time<0940))
         {
-          document.write('<h1>Minor/Honour</h1><h2>9:00:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0940)&&(time<1030)) 
         {
@@ -149,7 +149,7 @@
     {
         if ((time>=0850)&&(time<0940))
         {
-          document.write('<h1>Minor/Honour</h1><h2>9:00:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>9:00-9:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         if ((time>=0940)&&(time<1030)) 
         {
@@ -178,7 +178,6 @@
         document.write("</p>");
     }
     
-    
     if((time>=1230)&&(time<1330)&&(date!=0)&&(date!=6))
     {
       document.write('<h1>Lunch Break</h1>')
@@ -186,10 +185,10 @@
 
     if((time>=1030)&&(time<1040)||(time>=1500)&&(time<1510)&&(date!=0)&&(date!=6))
     {
-      document.write('<h1>Lunch Break</h1>')
+      document.write('<h1>Break</h1>')
     }
     
-    if((time<0900)||(time>1610)||(date==0)||(date==6))
+    if((time<0850)||(time>1610)||(date==0)||(date==6))
     {
         document.write('<h1>No Class at this time</h1>');
     }
