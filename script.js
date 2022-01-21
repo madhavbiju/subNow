@@ -163,31 +163,42 @@
         {
           document.write('<h1>Management of System Software</h1><h2>11:40-12:30</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
-        if ((time>=1325)&&(time<1415)) 
+        if ((time>=1355)&&(time<1445)) 
         {
-          document.write('<h1>Minor/Honour</h1><h2>01:30-02:20</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>Minor/Honour</h1><h2>02:00-02:50</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
-        if ((time>=1415)&&(time<1505)) 
+        if ((time>=1445)&&(time<1535)) 
         {
-          document.write('<h1>System Software</h1><h2>02:20-03:10</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>System Software</h1><h2>02:50-03:40</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
-        if ((time>=1515)&&(time<1610)) 
+        if ((time>=1535)&&(time<1630)) 
         {
-          document.write('<h1>FLAT</h1><h2>03:20-04:10</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
+          document.write('<h1>FLAT</h1><h2>03:40-04:30</h2><a href="https://bit.ly/3tkIY1b" target="_blank" rel="noopener noreferrer">Join via Linways</a>');
         }
         document.write("</p>");
     }
     
-    if((time>=1225)&&(time<1325)&&(date!=0)&&(date!=6))
+    if((time>=1225)&&(time<1325)&&(date!=0)&&(date!=6)&&(date!=5))
     {
       document.write('<h1>Lunch Break</h1>')
     }
 
-    if((time>=1035)&&(time<1045)||(time>=1505)&&(time<1515)&&(date!=0)&&(date!=6))
+    if((time>=1035)&&(time<1045)||(time>=1505)&&(time<1515)&&(date!=0)&&(date!=6)&&(date!=5))
     {
       document.write('<h1>Break</h1>')
     }
-    
+   
+    if((time>=1225)&&(time<1355)&&(date!=0)&&(date!=6)&&(date==5))
+    {
+      document.write('<h1>Lunch Break</h1>')
+    }
+
+    if((time>=1035)&&(time<1045)&&(date!=0)&&(date!=6)&&(date==5))
+    {
+      document.write('<h1>Break</h1>')
+    }
+
+
     if((time<0850)||(time>=1610)||(date==0)||(date==6))
     {
         document.write('<h1>No Class at this time</h1>');
