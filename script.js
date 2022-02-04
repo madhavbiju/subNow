@@ -183,7 +183,7 @@
       document.write('<h1>Lunch Break</h1>')
     }
 
-    if((time>=1035)&&(time<1045)||(time>=1505)&&(time<1515)&&(date!=0)&&(date!=6)&&(date!=5))
+    if(((time>=1035)&&(time<1045)||(time>=1505)&&(time<1515))&&((date!=0)&&(date!=6)&&(date!=5)))
     {
       document.write('<h1>Break</h1>')
     }
